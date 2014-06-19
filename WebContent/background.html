@@ -17,9 +17,10 @@
 <link href="jumbotron-narrow.css" rel="stylesheet">
 <!-- Documentation extras -->
 <link href="../docs-assets/css/docs.css" rel="stylesheet">
-<link rel="stylesheet" href="。/bootstrap-responsive.css" /><!-- 加入后变为响应式布局，去掉变为固定宽度布局 -->
+<link rel="stylesheet" href="./bootstrap-responsive.css" />
+<!-- 加入后变为响应式布局，去掉变为固定宽度布局 -->
 
-    <script src="../../dist/js/bootstrap.min.js"></script>
+<script src="../../dist/js/bootstrap.js"></script>
 
 
 </head>
@@ -30,103 +31,106 @@
 		<div class="header">
 			<ul class="nav nav-pills pull-right">
 				<li class="active"><a href="./mainDisplay.html">系统首页</a></li>
+				<li><a href="./background.html">后台首页</a></li>
 				<li><a href="./index.jsp">注销</a></li>
 			</ul>
-			<h3 class="text-muted">Welcome</h3>
+			<h3 class="text-muted">Welcome XX</h3>
 		</div>
 
 
 		<div class="jumbotron">
-			<h2>后台管理系统</h2>
+			<h1>后台管理系统</h1>
 		</div>
-		
+
 		<div class="row marketing">
 			<div class="col-lg-6">
-				<div class="bs-example"> 
-					<h4>数据维护</h4>
-					<p>
-					<div class="btn-group">
-						<button type="button" class="btn btn-default dropdown-toggle"
-							data-toggle="dropdown">
-							选择添加类型 <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">航空母舰</a></li>
-							<li><a href="#">火炮</a></li>
-							<li><a href="#">鱼雷</a></li>
-							<li class="divider"></li>
-							<li><a href="#">水雷</a></li>
-							<li><a href="#">...</a></li>
-						</ul>
-						<button type="button" class="btn btn-default">添加</button>
-					</div>
+				<h4>数据维护</h4>
+				<hr>
+				<p>
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle"
+						data-toggle="dropdown">
+						选择添加类型 <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">航空母舰</a></li>
+						<li><a href="#">火炮</a></li>
+						<li><a href="#">鱼雷</a></li>
+						<li class="divider"></li>
+						<li><a href="#">水雷</a></li>
+						<li><a href="#">...</a></li>
+					</ul>
+					<button type="button" class="btn btn-default"
+						onclick="{location.href='addWepon.html'}">添加</button>
+				</div>
 
-					<p>
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="输入型号"
-							width="30%"> <span class="input-group-btn">
-							<button class="btn btn-default" type="button">修改</button>
-							<button class="btn btn-default" type="button">删除</button>
-						</span>
+				<p>
 
-					</div>
-					<!-- /input-group -->
-
+					<div class="input-group"><input type="text" class="form-control" placeholder="输入型号"
+						width="30%"> <span class="input-group-btn">
+						<button class="btn btn-default" type="button">修改</button>
+						<button class="btn btn-default" type="button">删除</button>
+					</span></div>
+				<!-- /input-group -->
+				<hr>
+				<p>
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle"
+						data-toggle="dropdown">
+						选择数据库 <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">数据库1</a></li>
+						<li><a href="#">数据库2</a></li>
+						<li><a href="#">数据库3</a></li>
+						<li class="divider"></li>
+						<li><a href="#">数据库4</a></li>
+						<li><a href="#">...</a></li>
+					</ul>
+					<button type="button" class="btn btn-default">备份</button>
 				</div>
 				<p>
 				<div class="btn-group">
-						<button type="button" class="btn btn-default dropdown-toggle"
-							data-toggle="dropdown">
-							选择数据库 <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">数据库1</a></li>
-							<li><a href="#">数据库2</a></li>
-							<li><a href="#">数据库3</a></li>
-							<li class="divider"></li>
-							<li><a href="#">数据库4</a></li>
-							<li><a href="#">...</a></li>
-						</ul>
-						<button type="button" class="btn btn-default">备份</button>
-					</div>
-					<p>
+					<button type="button" class="btn btn-default dropdown-toggle"
+						data-toggle="dropdown">
+						选择数据库<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">数据库1</a></li>
+						<li><a href="#">数据库2</a></li>
+						<li><a href="#">数据库3</a></li>
+						<li class="divider"></li>
+						<li><a href="#">数据库4</a></li>
+						<li><a href="#">...</a></li>
+					</ul>
+				</div>
 				<div class="btn-group">
-						<button type="button" class="btn btn-default dropdown-toggle"
-							data-toggle="dropdown">
-							选择数据库<span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">数据库1</a></li>
-							<li><a href="#">数据库2</a></li>
-							<li><a href="#">数据库3</a></li>
-							<li class="divider"></li>
-							<li><a href="#">数据库4</a></li>
-							<li><a href="#">...</a></li>
-						</ul>
-						</div>
-						<div class="btn-group">
-						<button type="button" class="btn btn-default dropdown-toggle"
-							data-toggle="dropdown">
-							选择还原点<span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">备份1</a></li>
-							<li><a href="#">备份2</a></li>
-							<li><a href="#">备份3</a></li>
-							<li class="divider"></li>
-							<li><a href="#">备份4</a></li>
-							<li><a href="#">。。。</a></li>
-						</ul>
-						</div>
-						<button type="button" class="btn btn-default">恢复</button>
-				
-					
+					<button type="button" class="btn btn-default dropdown-toggle"
+						data-toggle="dropdown">
+						选择还原点<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">备份1</a></li>
+						<li><a href="#">备份2</a></li>
+						<li><a href="#">备份3</a></li>
+						<li class="divider"></li>
+						<li><a href="#">备份4</a></li>
+						<li><a href="#">。。。</a></li>
+					</ul>
+				</div>
+				<button type="button" class="btn btn-default">恢复</button>
+
+
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-lg-6 sidebar-offcanvas" id="sidebar"
+				role="navigation">
 				<h4>用户管理</h4>
-				<p>Donec id elit non mi porta gravida at eget metus. Maecenas
-					faucibus mollis interdum.</p>
+				<hr>
+				<div class="list-group">
+					<a href="user.html" class="list-group-item">用户信息维护</a>
+					<a href="#" class="list-group-item">用户注册审核</a>
+				</div>
 			</div>
 		</div>
 

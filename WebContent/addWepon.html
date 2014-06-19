@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+<title>后台管理系统</title>
+
+<!-- Bootstrap core CSS -->
+<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="jumbotron-narrow.css" rel="stylesheet">
+<!-- Documentation extras -->
+<link href="../docs-assets/css/docs.css" rel="stylesheet">
+<link rel="stylesheet" href="./bootstrap-responsive.css" />
+<!-- 加入后变为响应式布局，去掉变为固定宽度布局 -->
+<link href="./jasny-bootstrap.min.css" rel="stylesheet">
+<link href="./docs.css" rel="stylesheet">
+<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="./jasny-bootstrap.js"></script>
+<script src="./fileinput.js"></script>
+<script src="./docs.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<ul class="nav nav-pills pull-right">
+				<li class="active"><a href="./mainDisplay.html">系统首页</a></li>
+					<li><a href="./background.html">后台首页</a></li>
+				<li><a href="./index.jsp">注销</a></li>
+			</ul>
+			<h3 class="text-muted">Welcome XX</h3>
+		</div>
+
+
+
+		<form class="form-horizontal " role="form">
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">型号</span> <input type="text"
+					class="form-control " placeholder="F-18">
+			</div>
+
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">装备名称</span> <input type="text"
+					class="form-control " placeholder="大黄蜂">
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<div class="fileinput fileinput-new" data-provides="fileinput">
+					<div class="fileinput-new thumbnail"
+						style="width: 200px; height: 150px;">
+						<img data-src="holder.js/100%x100%" alt="...">
+					</div>
+					<div class="fileinput-preview fileinput-exists thumbnail"
+						style="max-width: 200px; max-height: 150px;"></div>
+					<div>
+						<span class="btn btn-default btn-file"><span
+							class="fileinput-new">Select image</span><span
+							class="fileinput-exists">Change</span><input type="hidden"><input type="file"
+							name="..."></span> <a href="#"
+							class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">国家</span> <input type="text"
+					class="form-control " placeholder="中国">
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">舰长</span> <input type="text"
+					class="form-control " placeholder="304"> <span
+					class="input-group-addon">米</span>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">舰宽</span> <input type="text"
+					class="form-control " placeholder="281"> <span
+					class="input-group-addon">米</span>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">吃水</span> <input type="text"
+					class="form-control " placeholder="10.5"> <span
+					class="input-group-addon">米</span>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">飞行甲板长</span> <input type="text"
+					class="form-control " placeholder="300"> <span
+					class="input-group-addon">米</span>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">排水量</span> <input type="text"
+					class="form-control " placeholder="57000"> <span
+					class="input-group-addon">吨</span>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">船员</span> <input type="text"
+					class="form-control " placeholder="2100"> <span
+					class="input-group-addon">人</span>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">武器装备</span>
+				<textarea class="form-control" rows="3"></textarea>
+			</div>
+			<div class="form-group input-group  col-sm-8" align="center">
+				<span class="input-group-addon">备注</span>
+				<textarea class="form-control" rows="2"></textarea>
+			</div>
+			<div class="form-group col-sm-6" align="center">
+				<a class="btn btn-sm btn-default" href="#">提交</a> <a
+					class="btn btn-sm btn-default " href="#">取消</a>
+			</div>
+		</form>
+
+
+
+	</div>
+
+
+
+</body>
+</html>
