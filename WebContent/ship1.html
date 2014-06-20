@@ -46,16 +46,45 @@
 				</button>
 				<a class="navbar-brand" href="#">军事装备</a>
 			</div>
-			<div class="navbar-collapse collapse">
+			<div class="navbar-collapse collapse ">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="./mainDisplay.html">主页</a></li>
+					<li class="active"><a href="./homePage.html">主页</a></li>
+
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">平台 <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="./ship.html">舰船</a></li>
-							<li><a href="#">潜艇</a></li>
-							<li><a href="#">飞机</a></li>
+							<li class="dropdown-submenu"><a tabindex="-1"
+								href="./ship.html">舰船</a>
+								<ul class="dropdown-menu">
+									<li><a tabindex="-1" href="./ship1.html">航空母舰</a></li>
+									<li><a tabindex="-1" href="#">巡洋舰</a></li>
+									<li><a tabindex="-1" href="#">驱逐舰</a></li>
+									<li><a tabindex="-1" href="#">护卫舰</a></li>
+									<li><a tabindex="-1" href="#">两栖作战舰艇</a></li>
+									<li><a tabindex="-1" href="#">巡逻舰艇</a></li>
+									<li><a tabindex="-1" href="#">水雷战舰艇</a></li>
+									<li><a tabindex="-1" href="#">辅助作战舰艇</a></li>
+								</ul></li>
+
+							<li class="dropdown-submenu"><a href="#">潜艇</a>
+								<ul class="dropdown-menu">
+									<li><a tabindex="-1" href="#">常规潜艇</a></li>
+									<li><a tabindex="-1" href="#">攻击型核潜艇</a></li>
+									<li><a tabindex="-1" href="#">弹道导弹核潜艇</a></li>
+								</ul></li>
+							<li class="dropdown-submenu"><a href="#">飞机</a>
+								<ul class="dropdown-menu">
+									<li><a tabindex="-1" href="#">歼击机</a></li>
+									<li><a tabindex="-1" href="#">轰炸机</a></li>
+									<li><a tabindex="-1" href="#">歼击轰炸机</a></li>
+									<li><a tabindex="-1" href="#">强击机</a></li>
+									<li><a tabindex="-1" href="#">反潜巡逻机</a></li>
+									<li><a tabindex="-1" href="#">武装直升机</a></li>
+									<li><a tabindex="-1" href="#">侦察机</a></li>
+									<li><a tabindex="-1" href="#">预警机</a></li>
+								</ul></li>
 						</ul></li>
+
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">武器 <b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -86,7 +115,13 @@
 							<li><a href="#">雷达传感器</a></li>
 							<li><a href="#">电子战</a></li>
 						</ul></li>
-					<li ><a href="./search.html">检索</a></li>
+
+					<li><form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="搜一搜吧~">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="./background.html">后台维护</a></li>
@@ -107,46 +142,73 @@
 		<!-- Main component for a primary marketing message or call to action -->
 		<div class="jumbotron">
 			<div class="row" align="center">
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">圣保罗级</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">查尔·戴高乐级</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">未来航空母舰 </a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
+					<a href="">圣女贞德级 </a>
+				</div>
+				<div class="col-lg-2">
+					<a href="">未来航空母舰 </a>
+				</div>
+				<div class="col-lg-2">
 					<a href="">圣女贞德级 </a>
 				</div>
 			</div>
 			<div class="row" align="center">
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">维克兰特级</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">改进型基辅级 </a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">维拉特级</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">朱塞佩·加里波第级 </a>
+				</div>
+				<div class="col-lg-2">
+					<a href="">维克兰特级</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="">改进型基辅级 </a>
 				</div>
 			</div>
 			<div class="row" align="center">
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">加富尔级</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">库兹涅佐夫海军上将级 </a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">阿斯图里亚斯亲王级</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<a href="">差克里·纳吕贝级</a>
 				</div>
+				<div class="col-lg-2">
+					<a href="">加富尔级</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="">库兹涅佐夫海军上将级 </a>
+				</div>
+			</div>
+			<div class="row" align="right">
+				<ul class="pagination  pagination-sm">
+					<li><a href="#">&laquo;</a></li>
+					<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="bs-example">
@@ -154,98 +216,98 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
 						<img data-src="holder.js/300x200" src="./image/1.jpg"
-							alt="Generic placeholder thumbnail" >
+							alt="Generic placeholder thumbnail">
 						<div class="caption">
 							<h3>型号：名称</h3>
 							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
-							弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
-							，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
+								弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
+								，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a> 
+								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
-						<img data-src="holder.js/300x200"  src="./image/2.jpg"
-							alt="Generic placeholder thumbnail"  height="200" width="300">
-						<div class="caption">
-							<h3>型号：名称</h3>
-							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
-							弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
-							，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
-							<p>
-								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a> 
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img data-src="holder.js/300x200"  src="./image/3.jpg"
+						<img data-src="holder.js/300x200" src="./image/2.jpg"
 							alt="Generic placeholder thumbnail" height="200" width="300">
 						<div class="caption">
 							<h3>型号：名称</h3>
 							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
-							弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
-							，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
+								弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
+								，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a> 
+								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img data-src="holder.js/300x200" src="./image/3.jpg"
+							alt="Generic placeholder thumbnail" height="200" width="300">
+						<div class="caption">
+							<h3>型号：名称</h3>
+							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
+								弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
+								，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
+							<p>
+								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
 						<img data-src="holder.js/300x200" src="./image/1.jpg"
-							alt="Generic placeholder thumbnail" >
+							alt="Generic placeholder thumbnail">
 						<div class="caption">
 							<h3>型号：名称</h3>
 							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
-							弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
-							，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
+								弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
+								，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a> 
+								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
-						<img data-src="holder.js/300x200"  src="./image/2.jpg"
-							alt="Generic placeholder thumbnail"  height="200" width="300">
-						<div class="caption">
-							<h3>型号：名称</h3>
-							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
-							弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
-							，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
-							<p>
-								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a> 
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img data-src="holder.js/300x200"  src="./image/3.jpg"
+						<img data-src="holder.js/300x200" src="./image/2.jpg"
 							alt="Generic placeholder thumbnail" height="200" width="300">
 						<div class="caption">
 							<h3>型号：名称</h3>
 							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
-							弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
-							，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
+								弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
+								，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
 							<p>
-								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a> 
+								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img data-src="holder.js/300x200" src="./image/3.jpg"
+							alt="Generic placeholder thumbnail" height="200" width="300">
+						<div class="caption">
+							<h3>型号：名称</h3>
+							<p>福莱斯特级航空母舰是美国战后建造的第一级航空母舰，为装备新式喷气式专门设计。该级舰首次采用蒸汽
+								弹射器，飞行甲板吸取英国航空母舰的设计经验，将传统的直通式飞行甲板改变为斜角，直通混合布置的飞行甲板
+								，使整个飞行甲板形成起飞，待机和降落3个区，可同时进行起飞和着舰作业，从而形成了美国当今航空母舰的基本模式。</p>
+							<p>
+								<a href="#" class="btn btn-primary" role="button">详情&raquo;</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 		<!-- /.bs-example -->
 

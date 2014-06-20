@@ -38,7 +38,7 @@
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> 记住用户名和密码
         </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit"  onclick="window.location='mainDisplay.html'">提交</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit"  onclick="window.location='homePage.html'">提交</button>
         <a href=""  >注册></a>  
       </form>
 

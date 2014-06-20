@@ -28,6 +28,7 @@
 
 <body>
 	<!-- Fixed navbar -->
+	<!-- Fixed navbar -->
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -39,16 +40,46 @@
 				</button>
 				<a class="navbar-brand" href="#">军事装备</a>
 			</div>
-			<div class="navbar-collapse collapse">
+			<div
+				class="navbar-collapse collapse ">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="./mainDisplay.html">主页</a></li>
+					<li class="active"><a href="./homePage.html">主页</a></li>
+
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">平台 <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">舰船</a></li>
-							<li><a href="#">潜艇</a></li>
-							<li><a href="#">飞机</a></li>
+						<ul class="dropdown-menu" >
+							<li class="dropdown-submenu"><a tabindex="-1"
+								href="./ship.html">舰船</a>
+								<ul class="dropdown-menu">
+									<li><a tabindex="-1" href="./ship1.html">航空母舰</a></li>
+									<li><a tabindex="-1" href="#">巡洋舰</a></li>
+									<li><a tabindex="-1" href="#">驱逐舰</a></li>
+									<li><a tabindex="-1" href="#">护卫舰</a></li>
+									<li><a tabindex="-1" href="#">两栖作战舰艇</a></li>
+									<li><a tabindex="-1" href="#">巡逻舰艇</a></li>
+									<li><a tabindex="-1" href="#">水雷战舰艇</a></li>
+									<li><a tabindex="-1" href="#">辅助作战舰艇</a></li>
+								</ul></li>
+
+							<li class="dropdown-submenu"><a href="#">潜艇</a>
+								<ul class="dropdown-menu">
+									<li><a tabindex="-1" href="#">常规潜艇</a></li>
+									<li><a tabindex="-1" href="#">攻击型核潜艇</a></li>
+									<li><a tabindex="-1" href="#">弹道导弹核潜艇</a></li>
+								</ul></li>
+							<li class="dropdown-submenu"><a href="#">飞机</a>
+                           		 <ul class="dropdown-menu">
+									<li><a tabindex="-1" href="#">歼击机</a></li>
+									<li><a tabindex="-1" href="#">轰炸机</a></li>
+									<li><a tabindex="-1" href="#">歼击轰炸机</a></li>
+									<li><a tabindex="-1" href="#">强击机</a></li>
+									<li><a tabindex="-1" href="#">反潜巡逻机</a></li>
+									<li><a tabindex="-1" href="#">武装直升机</a></li>
+									<li><a tabindex="-1" href="#">侦察机</a></li>
+									<li><a tabindex="-1" href="#">预警机</a></li>
+								</ul></li>
 						</ul></li>
+
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">武器 <b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -79,7 +110,13 @@
 							<li><a href="#">雷达传感器</a></li>
 							<li><a href="#">电子战</a></li>
 						</ul></li>
-					<li ><a href="./search.html">检索</a></li>
+					
+					<li><form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="搜一搜吧~">
+						</div>
+						<button type="submit" class="btn btn-default">搜索</button>
+					</form></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="./background.html">后台维护</a></li>
@@ -89,6 +126,7 @@
 			<!--/.nav-collapse -->
 		</div>
 	</div>
+
 
 
 
@@ -116,7 +154,7 @@
 							舰队中的其它船只提供其保护和供给，而航母则提供空中掩护和远程打击能力发展至今，航空母舰已是现代海军不可或缺的武器也是海战最重要的舰艇之一
 						</p>
 						<p>
-							<a class="btn btn-default" href="#" role="button">详情 &raquo;</a>
+							<a class="btn btn-default" href="./ship1.html" role="button">详情 &raquo;</a>
 						</p>
 					</div>
 					<!--/span-->
@@ -145,10 +183,9 @@
 					<!--/span-->
 					<div class="col-6 col-sm-6 col-lg-4">
 						<h2>护卫舰</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce
-							dapibus, tellus ac cursus commodo, tortor mauris condimentum
-							nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
-							malesuada magna mollis euismod. Donec sed odio dui.</p>
+						<p>巡洋舰是一种火力强、用途多，主要在远洋活动的大型水面舰艇。巡洋舰装备有较强的进攻和防御型武器，
+							具有较高的航速和适航性，能在恶劣气候条件下长时间进行远洋作战。它的主要任务是为航空母舰和战列舰护航，
+							或者作为编队旗舰组成海上机动编队，攻击敌方水面舰艇、潜艇或岸上目标。</p>
 						<p>
 							<a class="btn btn-default" href="#" role="button">View
 								details &raquo;</a>
@@ -157,10 +194,9 @@
 					<!--/span-->
 					<div class="col-6 col-sm-6 col-lg-4">
 						<h2>凉席作战舰</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce
-							dapibus, tellus ac cursus commodo, tortor mauris condimentum
-							nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
-							malesuada magna mollis euismod. Donec sed odio dui.</p>
+						<p>巡洋舰是一种火力强、用途多，主要在远洋活动的大型水面舰艇。巡洋舰装备有较强的进攻和防御型武器，
+							具有较高的航速和适航性，能在恶劣气候条件下长时间进行远洋作战。它的主要任务是为航空母舰和战列舰护航，
+							或者作为编队旗舰组成海上机动编队，攻击敌方水面舰艇、潜艇或岸上目标。</p>
 						<p>
 							<a class="btn btn-default" href="#" role="button">View
 								details &raquo;</a>
@@ -169,10 +205,9 @@
 					<!--/span-->
 					<div class="col-6 col-sm-6 col-lg-4">
 						<h2>巡逻战舰</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce
-							dapibus, tellus ac cursus commodo, tortor mauris condimentum
-							nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
-							malesuada magna mollis euismod. Donec sed odio dui.</p>
+						<p>巡洋舰是一种火力强、用途多，主要在远洋活动的大型水面舰艇。巡洋舰装备有较强的进攻和防御型武器，
+							具有较高的航速和适航性，能在恶劣气候条件下长时间进行远洋作战。它的主要任务是为航空母舰和战列舰护航，
+							或者作为编队旗舰组成海上机动编队，攻击敌方水面舰艇、潜艇或岸上目标。</p>
 						<p>
 							<a class="btn btn-default" href="#" role="button">View
 								details &raquo;</a>
@@ -182,10 +217,9 @@
 					<!--/span-->
 					<div class="col-6 col-sm-6 col-lg-4">
 						<h2>水雷战舰艇</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce
-							dapibus, tellus ac cursus commodo, tortor mauris condimentum
-							nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
-							malesuada magna mollis euismod. Donec sed odio dui.</p>
+						<p>巡洋舰是一种火力强、用途多，主要在远洋活动的大型水面舰艇。巡洋舰装备有较强的进攻和防御型武器，
+							具有较高的航速和适航性，能在恶劣气候条件下长时间进行远洋作战。它的主要任务是为航空母舰和战列舰护航，
+							或者作为编队旗舰组成海上机动编队，攻击敌方水面舰艇、潜艇或岸上目标。</p>
 						<p>
 							<a class="btn btn-default" href="#" role="button">View
 								details &raquo;</a>
@@ -194,10 +228,9 @@
 					<!--/span-->
 					<div class="col-6 col-sm-6 col-lg-4">
 						<h2>辅助作战舰艇</h2>
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce
-							dapibus, tellus ac cursus commodo, tortor mauris condimentum
-							nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
-							malesuada magna mollis euismod. Donec sed odio dui.</p>
+						<p>巡洋舰是一种火力强、用途多，主要在远洋活动的大型水面舰艇。巡洋舰装备有较强的进攻和防御型武器，
+							具有较高的航速和适航性，能在恶劣气候条件下长时间进行远洋作战。它的主要任务是为航空母舰和战列舰护航，
+							或者作为编队旗舰组成海上机动编队，攻击敌方水面舰艇、潜艇或岸上目标。</p>
 						<p>
 							<a class="btn btn-default" href="#" role="button">View
 								details &raquo;</a>
